@@ -1,6 +1,1 @@
-*.pyc
-*~
-dev.db
-media/admin
-local_settings.py
-*.DS_Store
+*.swp
