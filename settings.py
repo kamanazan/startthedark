@@ -7,7 +7,8 @@ PROJECT_DIR = os.path.dirname(__file__)
 ADMINS = (
     ('Eric Florenzano', 'floguy@gmail.com'),
 )
-
+EMAIL_HOST  = 'localhost'
+EMAIL_PORT = 1025
 MANAGERS = ADMINS
 
 DATABASE_ENGINE = 'sqlite3'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
@@ -24,7 +25,7 @@ DATABASE_PORT = ''             # Set to empty string for default. Not used with 
 # system time zone.
 TIME_ZONE = 'America/Chicago'
 
-# Language code for this installation. All choices can be found here:
+# Language code for this installationr All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = 'en-us'
 
